@@ -7,7 +7,7 @@ public class Utils
 	public static WebDriver driver;
 	public static Boolean driverSession= false;	
 	
-//To launch the browser if the session is not activie already	
+//To launch the browser if the session is not active already	
 	public static void setDriver(){
 		if(!driverSession)
 		{
