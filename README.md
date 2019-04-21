@@ -37,15 +37,14 @@ Note: All th tests will be executed in the ssame browser session unless there ar
 
 Test Types
 -----------------------
-There are 3 types of tests available in this framework. [Use tags= "@HealthCheck" in "RunTest.java"]
-1. @HealthCheck --> This will run a test to check whether the application is up and running fine.[Use tags= "@Smoke" in "RunTest.java"]
-2. @Smoke --> This will test the basic functionality of the application for a minimum set of data.[Use tags= "@Regression" in "RunTest.java"]
-3. @Regression --> This will run all the tests.
+There are 3 types of tests available in this framework. 
+1. @HealthCheck --> This will run a test to check whether the application is up and running fine.  [Use tags= "@HealthCheck" in "RunTest.java"]
+2. @Smoke --> This will test the basic functionality of the application for a minimum set of data. [Use tags= "@Smoke" in "RunTest.java"]
+3. @Regression --> This will run all the tests. [Use tags= "@Regression" in "RunTest.java"]
 
 Running the failed Test cases
 -----------------------------
-After the test execution the failed test scenarios will be captured into the rerun.txt file under target/HTML-Report folder. These failed test cases
-can be executed again by running the ReRunFailedTests.java class.
+After the test execution the failed test scenarios will be captured into the rerun.txt file under target/HTML-Report folder. These failed test cases can be executed again by running the ReRunFailedTests.java class.
 
 
 Test Report
