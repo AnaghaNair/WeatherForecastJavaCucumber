@@ -6,7 +6,7 @@ import cucumber.api.junit.Cucumber;
 import utillities.Utils;
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = {"classpath:FeatureFiles"}, tags= "@Smoke", monochrome = true,
+		features = {"classpath:FeatureFiles"}, tags= "@Regression", monochrome = true,
 		format = {"pretty","json:target/weather.json",	
 				"rerun:target/HTML-Report/rerun.txt",
 				"html:target/HTML-Report"}	
